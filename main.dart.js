@@ -54932,7 +54932,7 @@ p=A.t(a).ax
 o=p.ry
 if(o==null){h=p.q
 if(h==null)h=p.k3}else h=o
-return A.k2(j,A.oE(A.b([i,B.id,new A.zv("Bank emails",m),g,s,B.id,new A.zv("Organise",m),r,B.id,new A.zv("Account",m),q,l,new A.aJ(B.eL,A.aj("Version 13 Nov 15:02",m,m,m,A.e_(m,m,h,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),B.cQ,m,m),m)],t.p),m,m),m,m)}}
+return A.k2(j,A.oE(A.b([i,B.id,new A.zv("Bank emails",m),g,s,B.id,new A.zv("Organise",m),r,B.id,new A.zv("Account",m),q,l,new A.aJ(B.eL,A.aj("Version 13 Nov 15:13",m,m,m,A.e_(m,m,h,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),B.cQ,m,m),m)],t.p),m,m),m,m)}}
 A.awP.prototype={
 $1(a){return this.a},
 $S:16}
