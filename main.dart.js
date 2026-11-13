@@ -11010,7 +11010,7 @@ boA(a){var s,r,q,p=A.av("https?://\\S+",!0,!1)
 p=A.aZ(a,p,"")
 s=A.av("[ \\t]+",!0,!1)
 r=A.aZ(p,s," ")
-q=A.av("(?i)(warm regards|regards,|this is a system.generated|do not reply|please do not|disclaimer)",!0,!1).ls(r)
+q=A.av("(warm regards|regards,|this is a system.generated|do not reply|please do not|disclaimer)",!1,!1).ls(r)
 return B.d.aw(new A.ag(A.b((q!=null?B.d.ab(r,0,q.b.index):r).split("\n"),t.s),new A.aGY(),t.a4).yb(0,new A.aGZ()).bM(0,"\n"))},
 b_3:function b_3(a,b,c){this.a=a
 this.b=b
@@ -60195,7 +60195,7 @@ p=A.p(a).ax
 o=p.ry
 if(o==null){o=p.q
 p=o==null?p.k3:o}else p=o
-return A.eI(j,A.eU(A.b([i,B.eo,new A.AS("Bank emails",m),g,s,B.eo,new A.AS("Organise",m),h,r,B.eo,new A.AS("Account",m),q,l,new A.aa(B.bz,A.t("Version 14 Nov 02:33",m,m,m,m,A.cN(m,m,p,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),B.bN,m,m),m)],t.p),m,m,!1),m,m)}}
+return A.eI(j,A.eU(A.b([i,B.eo,new A.AS("Bank emails",m),g,s,B.eo,new A.AS("Organise",m),h,r,B.eo,new A.AS("Account",m),q,l,new A.aa(B.bz,A.t("Version 14 Nov 02:38",m,m,m,m,A.cN(m,m,p,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),B.bN,m,m),m)],t.p),m,m,!1),m,m)}}
 A.aBH.prototype={
 $1(a){return this.a},
 $S:17}
