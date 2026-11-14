@@ -12869,7 +12869,7 @@ this.b=b},
 axz:function axz(a){this.a=a},
 bEf(){var s=new A.aN($.aQ,t.xw),r=new A.bB(s,t.aa),q=v.G,p=q.document.createElement("input")
 p.type="file"
-p.accept=".xls,.xlsx,.csv,.txt,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,text/csv,text/plain,*/*"
+p.accept=".pdf,application/pdf,.xls,.xlsx,.csv,.txt,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,text/csv,text/plain,*/*"
 p.style.display="none"
 q.document.body.append(p)
 q=new A.b8y(r,p)
@@ -60303,7 +60303,7 @@ p=A.b([A.aZ(new A.Oq("You have",p+A.aA(Math.abs(m)),f),1)],e)
 if(B.b.dY(o,new A.aKi()))p.push(A.aZ(new A.Oq("Card dues",A.aA(l<0?-l:0),f),1))
 r=A.b([new A.V(B.aS,A.aiy(new A.V(B.W0,A.aR(p,B.m,B.h,B.i,0,f),f),r,f),f),A.Hk(f,new A.aKj(g),g.d,!0,!0,!1)],e)
 for(p=o.length,q=0;q<o.length;o.length===p||(0,A.r)(o),++q)r.push(j.$1(o[q]))
-r.push(new A.V(B.VZ,A.aR(A.b([A.aZ(A.h("Loans & credit",f,f,f,f,A.cp(f,f,k.b,f,f,f,f,f,f,f,f,f,f,f,B.av,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),1),A.oH(B.qB,B.apZ,new A.aK9(g,a),f)],e),B.m,B.h,B.i,0,f),f))
+r.push(new A.V(B.VZ,A.aR(A.b([A.aZ(A.h("Loans & credit",f,f,f,f,A.cp(f,f,k.b,f,f,f,f,f,f,f,f,f,f,f,B.av,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),1),A.oH(B.qB,B.aq_,new A.aK9(g,a),f)],e),B.m,B.h,B.i,0,f),f))
 p=g.a.c.w
 if(!new A.J(p,new A.aKa(),A.O(p).i("J<1>")).gV(0).p())r.push(B.aeJ)
 r.push(new A.WS(g.a.c,f))
@@ -60928,7 +60928,7 @@ l=n.b
 n=l?40:16
 k=l?32:40
 j=A.h(m.b,h,h,h,h,h,h,h,h)
-if(m.e)i=B.aq2
+if(m.e)i=B.aq3
 else i=m.f?B.app:h
 e.push(A.bt(!1,new A.a4(n,0,8,0),h,h,!0,h,h,h,!0,h,new A.fx(m,k,h),h,h,h,h,h,new A.aiH(o,f,a),!1,h,h,h,h,h,i,h,j,h,A.ZI(h,h,h,new A.aiI(o),new A.aiJ(o,f,a),h,q),h))}return A.dq(g,h,A.dm(e,h,h,B.N,!1),h,new A.tV(B.ec,new A.aiK(f,a),!1,B.awa,h,h))},
 $S:105}
@@ -61030,7 +61030,7 @@ l=h.gFT()
 k=m.a
 j=A.q2(g,h.gFT()===k?A.bq(h.gF0()).cJ(0.2):g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g)
 i=m.b
-o.push(A.cC(g,g,g,A.bR(i,h.gFT()===k?A.bq(h.gF0()):g,g,g),g,l===k,g,new A.aNc(h,m),g,g,j,g))}return A.iR(A.aJ(A.b([e,B.al,s,B.al,r,B.al,A.ey(o,B.b4,4,4),new A.d3(new A.aNd(h),g),A.Ad(B.L,new A.aNe(h),B.aq7,B.ary,h.ga21())],d),B.bp,B.h,B.ah,0,B.r),g,B.F,new A.a4(20,0,20,20+f.f.d),g,g,B.N)}}
+o.push(A.cC(g,g,g,A.bR(i,h.gFT()===k?A.bq(h.gF0()):g,g,g),g,l===k,g,new A.aNc(h,m),g,g,j,g))}return A.iR(A.aJ(A.b([e,B.al,s,B.al,r,B.al,A.ey(o,B.b4,4,4),new A.d3(new A.aNd(h),g),A.Ad(B.L,new A.aNe(h),B.aq8,B.ary,h.ga21())],d),B.bp,B.h,B.ah,0,B.r),g,B.F,new A.a4(20,0,20,20+f.f.d),g,g,B.N)}}
 A.aMZ.prototype={
 $0(){return this.a.x="Enter a name"},
 $S:0}
@@ -61924,7 +61924,7 @@ $1(a){var s=null,r=A.b(["All "+this.a.length+" friends who are not connected sta
 if(q.length!==0)r.push("These balances go to \u20b90: "+new A.a8(q,new A.aoP(),A.O(q).i("a8<1,f>")).bk(0,", ")+".")
 r.push("Connected friends are not changed. You can undo this in Settings \u2192 Change history.")
 r=A.iR(A.h(B.b.bk(r,"\n\n"),s,s,s,s,s,s,s,s),s,B.F,s,s,s,B.N)
-return A.dB(A.b([A.bU(B.aL,s,s,new A.aoQ(a),s,s),A.cE(B.aq5,new A.aoR(a),s)],t.p),r,B.aqF)},
+return A.dB(A.b([A.bU(B.aL,s,s,new A.aoQ(a),s,s),A.cE(B.aq6,new A.aoR(a),s)],t.p),r,B.aqF)},
 $S:15}
 A.aoP.prototype={
 $1(a){return a.a+" "+A.aA(Math.abs(a.b))},
@@ -62231,7 +62231,7 @@ else a1=j>0?e.fy:B.ac
 a1=a0.bo(a1)
 a0=a1}a0=A.aJ(A.b([a,B.b_,A.h(i,b5,b5,b5,b5,a0,b5,b5,b5)],b),B.m,B.h,B.i,0,B.r)
 i=A.aJ(A.b([new A.G7(b8,b7,b5),new A.I3(b8,b7,b5)],b),B.m,B.h,B.i,0,B.r)
-a=A.b([A.aZ(A.Vi(B.qy,B.aq4,d?b5:new A.aoM(b4,c0,j),b5),1)],b)
+a=A.b([A.aZ(A.Vi(B.qy,B.aq5,d?b5:new A.aoM(b4,c0,j),b5),1)],b)
 if(l)B.b.I(a,A.b([B.cy,A.aZ(A.hx(B.x7,B.P3,new A.aov(b4,c0,j),b5),1)],b))
 if(j<0)B.b.I(a,A.b([B.cy,A.aZ(A.hx(B.YI,B.aqZ,new A.aow(b4,j,g),b5),1)],b))
 l=A.aR(a,B.m,B.h,B.i,0,b5)
@@ -62588,7 +62588,7 @@ return A.x($async$$0,r)},
 $S:5}
 A.aop.prototype={
 $1(a){var s=null,r=A.h(this.a.d+" is asked to OK it. Until then it still counts; if they say no, it stays.",s,s,s,s,s,s,s,s)
-return A.dB(A.b([A.bU(B.aL,s,s,new A.aom(a),s,s),A.cE(B.aqN,new A.aon(a),s)],t.p),r,B.apS)},
+return A.dB(A.b([A.bU(B.aL,s,s,new A.aom(a),s,s),A.cE(B.aqN,new A.aon(a),s)],t.p),r,B.apT)},
 $S:15}
 A.aom.prototype={
 $0(){A.af(this.a,!1).aK(!1)
@@ -62636,7 +62636,7 @@ g=s==null
 r=g?j:Math.abs(k.a.d-s)
 q=t.y
 p=t.p
-h=A.b([A.mz(!1,new A.aPa(k),A.b([B.Ro,new A.cS(!1,j,A.h(i+" owes",j,j,j,j,j,j,j,j),t.Mt)],t.st),A.c5([k.ga6M()],q),!1,q),B.a5,A.cK(j,B.a3,!0,j,!0,B.u,j,A.cR(),h,j,j,j,j,j,2,B.je,B.F,!0,j,j,!0,j,!1,j,B.a6,j,j,A.b([new A.hQ(A.ai("[0-9.,]",!0,!1),!0,"")],t.VS),j,B.c8,j,j,j,1,j,j,!1,"\u2022",j,new A.aPb(k),j,j,j,!1,j,j,!1,j,!0,j,B.ai,j,j,j,j,j,j,j,j,j,j,j,j,!0,B.M,j,B.az,j,j,j,j),B.a0,A.Ad(B.L,new A.aPc(k),B.aqp,B.aq6,k.r)],p)
+h=A.b([A.mz(!1,new A.aPa(k),A.b([B.Ro,new A.cS(!1,j,A.h(i+" owes",j,j,j,j,j,j,j,j),t.Mt)],t.st),A.c5([k.ga6M()],q),!1,q),B.a5,A.cK(j,B.a3,!0,j,!0,B.u,j,A.cR(),h,j,j,j,j,j,2,B.je,B.F,!0,j,j,!0,j,!1,j,B.a6,j,j,A.b([new A.hQ(A.ai("[0-9.,]",!0,!1),!0,"")],t.VS),j,B.c8,j,j,j,1,j,j,!1,"\u2022",j,new A.aPb(k),j,j,j,!1,j,j,!1,j,!0,j,B.ai,j,j,j,j,j,j,j,j,j,j,j,j,!0,B.M,j,B.az,j,j,j,j),B.a0,A.Ad(B.L,new A.aPc(k),B.aqp,B.aq7,k.r)],p)
 if(!k.r&&r!=null&&r>=0.005){q=A.h("The other "+A.aA(r)+" was:",j,j,j,j,A.q(a).ok.x,j,j,j)
 o=A.b([],p)
 for(n=i+"'s spends through me",m=0;m<4;++m){l=B.mf[m]
@@ -62805,7 +62805,7 @@ return A.x($async$Af,r)},
 F(a){return new A.cI(new A.apL(this,A.q(a).ok),null,this.c,null)}}
 A.apH.prototype={
 $1(a){var s=null
-return A.dB(A.b([A.bU(B.aL,s,s,new A.apF(a),s,s),A.cE(B.aq0,new A.apG(a),s)],t.p),B.aqn,B.arg)},
+return A.dB(A.b([A.bU(B.aL,s,s,new A.apF(a),s,s),A.cE(B.aq1,new A.apG(a),s)],t.p),B.aqn,B.arg)},
 $S:15}
 A.apF.prototype={
 $0(){A.af(this.a,!1).aK(!1)
@@ -63510,7 +63510,7 @@ s=A.bax(a)
 return s==null?a:A.da(s)},
 F(a8){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="from",g="alreadyImported",f="new",e="openingBalance",d="closingBalance",c="extra",b="balanceCheck",a=j.f,a0=j.r,a1=A.q(a8).ok,a2=A.q(a8).ax,a3=new A.aTR(a2),a4=A.du(i,i,i,i,i,i,i,i,i,B.aqM),a5=t.p,a6=A.b([],a5),a7=a0==null
 if(a7){s=j.w?i:j.gawy()
-B.b.I(a6,A.b([B.aqf,B.al,A.bgu(B.qA,A.h(j.e==null?"Choose statement file":"Choose another file",i,i,i,i,i,i,i,i),s,i)],a5))}if(j.w)a6.push(B.aeG)
+B.b.I(a6,A.b([B.apN,B.al,A.bgu(B.qA,A.h(j.e==null?"Choose statement file":"Choose another file",i,i,i,i,i,i,i,i),s,i)],a5))}if(j.w)a6.push(B.aeG)
 s=j.z
 if(s!=null)a6.push(new A.V(B.vY,A.h(s,i,i,i,i,A.cp(i,i,a2.fy,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),i))
 if(a!=null&&a7&&!j.w){s=A.b([A.h(A.m(a.h(0,"account")),i,i,i,i,a1.w,i,i,i),A.h(j.w_(a.h(0,h))+" \u2013 "+j.w_(a.h(0,"to"))+" \xb7 "+A.m(j.e),i,i,i,i,a1.Q,i,i,i),B.vO,a3.$2("Transactions in the file",A.m(a.h(0,"rows"))+" ("+A.m(a.h(0,"debits"))+" out, "+A.m(a.h(0,"credits"))+" in)"),a3.$2("Already in the app from emails",A.m(a.h(0,"alreadyFromEmails")))],a5)
@@ -63719,7 +63719,7 @@ n=n.j(0,A.b7K(n.a))?b.d.a:A.aw(0,1,1,0,0,0,0)
 a1.push(new A.adp(r,n,new A.aUx(b),a))
 a1.push(B.t5)
 n=s.a
-a1.push(A.aR(A.b([A.aZ(A.h("Where the money went",a,a,a,a,o,a,a,a),1),A.h(A.aA(n),a,a,a,a,o,a,a,a),B.nx,A.bU(B.apU,a,a,new A.aUy(b,a4,a0),a,a)],a2),B.m,B.h,B.i,0,a))
+a1.push(A.aR(A.b([A.aZ(A.h("Where the money went",a,a,a,a,o,a,a,a),1),A.h(A.aA(n),a,a,a,a,o,a,a,a),B.nx,A.bU(B.apV,a,a,new A.aUy(b,a4,a0),a,a)],a2),B.m,B.h,B.i,0,a))
 a1.push(B.a0)
 m=s.c
 if(m.length===0)a1.push(B.aez)
@@ -64038,7 +64038,7 @@ h=a1.r
 h.toString
 B.b.I(k,A.b([B.al,A.xL(i,A.us(a,a,10,l/h)),B.b_,A.dw(A.h(A.m(l)+" of "+h+" EMIs paid \xb7 "+A.m(s.e)+" left",a,a,a,a,a,a,a,a),a,a)],q))}k.push(B.al)
 l=a1.d
-k.push(A.aR(A.b([A.aZ(A.Vi(B.eF,A.h(l===B.eO?"Mark EMI paid":"Mark payment",a,a,a,a,a,a,a,a),new A.asU(b,a2,a1),a),1),B.cy,A.aZ(A.bbz(B.aq3,new A.asV(b,a2,a1)),1)],q),B.m,B.h,B.i,0,a))
+k.push(A.aR(A.b([A.aZ(A.Vi(B.eF,A.h(l===B.eO?"Mark EMI paid":"Mark payment",a,a,a,a,a,a,a,a),new A.asU(b,a2,a1),a),1),B.cy,A.aZ(A.bbz(B.aq4,new A.asV(b,a2,a1)),1)],q),B.m,B.h,B.i,0,a))
 k.push(B.a0)
 i=A.b([],q)
 l=l===B.fD
@@ -65574,7 +65574,7 @@ o=n&&m!=="shop"?"Turn on for a shop on a personal UPI ID (e.g. your cigarette sh
 if(e==null)i=a3
 else{i=a5.rx
 i=e.bo(i==null?a5.k3:i)}B.b.I(c,A.b([a6,B.a0,s,B.b_,A.Ad(B.L,new A.aY7(a2,q),A.h(o,a3,a3,a3,a3,i,a3,a3,a3),p,g)],a))}c.push(B.al)
-c.push(A.hx(B.Zd,B.apO,new A.aY8(a2,q),a3))
+c.push(A.hx(B.Zd,B.apP,new A.aY8(a2,q),a3))
 return A.dq(h,a3,A.dm(c,a3,B.aS,B.N,!1),a3,a3)}}
 A.aXU.prototype={
 $0(){var s=this.a
@@ -65607,7 +65607,7 @@ n=n.b?16:18
 k=A.bq(m.d)
 h.push(A.x7(A.bR(l,k,i,n),A.h(m.b,i,i,i,i,i,i,i,i),new A.aY1(o,a),i))}r=j.b
 if(r!=null&&j.c)h.push(A.x7(B.xc,B.to,new A.aY2(a,r),i))
-h.push(A.x7(B.Z2,B.apT,new A.aY3(s,j.d,a),i))
+h.push(A.x7(B.Z2,B.apU,new A.aY3(s,j.d,a),i))
 return A.ey(h,B.b4,8,8)},
 $S:916}
 A.aY0.prototype={
@@ -65954,7 +65954,7 @@ o=A.q(a).ax
 n=o.ry
 if(n==null){n=o.t
 o=n==null?o.k3:n}else o=n
-return A.dq(i,l,A.dm(A.b([h,B.ea,new A.C4("Bank emails",l),f,s,B.ea,new A.C4("Organise",l),g,r,B.ea,new A.C4("Account",l),q,p,k,new A.V(B.aS,A.h("Version 14 Nov 17:17",l,l,l,l,A.cp(l,l,o,l,l,l,l,l,l,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),B.bB,l,l),l)],t.p),l,l,B.N,!1),l,l)}}
+return A.dq(i,l,A.dm(A.b([h,B.ea,new A.C4("Bank emails",l),f,s,B.ea,new A.C4("Organise",l),g,r,B.ea,new A.C4("Account",l),q,p,k,new A.V(B.aS,A.h("Version 14 Nov 18:29",l,l,l,l,A.cp(l,l,o,l,l,l,l,l,l,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),B.bB,l,l),l)],t.p),l,l,B.N,!1),l,l)}}
 A.aFt.prototype={
 $1(a){return this.a},
 $S:19}
@@ -66349,7 +66349,7 @@ $S:0}
 A.aGs.prototype={
 $1(a){var s=null,r=this.a,q=A.h(r.c+" \xb7 "+A.aA(r.d),s,s,s,s,s,s,s,s),p=r.e==null,o=t.p
 q=A.b([A.bt(!1,s,s,s,!0,s,s,s,!0,s,s,s,s,s,s,s,s,!1,s,s,s,s,s,A.h(!p||r.f!=null?"Paid you back":"Owes you",s,s,s,s,s,s,s,s),s,q,s,s,s)],o)
-if(!(!p||r.f!=null))B.b.I(q,A.b([A.bt(!1,s,s,s,!0,s,s,s,!0,s,B.xb,s,s,s,s,s,new A.aGp(a),!1,s,s,s,s,s,s,s,B.aqB,s,s,s),A.bt(!1,s,s,s,!0,s,s,s,!0,s,B.x4,s,s,s,s,s,new A.aGq(a),!1,s,s,s,s,s,s,s,B.apX,s,s,s)],o))
+if(!(!p||r.f!=null))B.b.I(q,A.b([A.bt(!1,s,s,s,!0,s,s,s,!0,s,B.xb,s,s,s,s,s,new A.aGp(a),!1,s,s,s,s,s,s,s,B.aqB,s,s,s),A.bt(!1,s,s,s,!0,s,s,s,!0,s,B.x4,s,s,s,s,s,new A.aGq(a),!1,s,s,s,s,s,s,s,B.apY,s,s,s)],o))
 q.push(A.bt(!1,s,s,s,!0,s,s,s,!0,s,B.lG,s,s,s,s,s,new A.aGr(a),!1,s,s,s,s,s,s,s,B.nJ,s,s,s))
 return A.kl(!0,A.aJ(q,B.m,B.h,B.ah,0,B.r),!0,!1,B.L,!0,!0)},
 $S:106}
@@ -66406,7 +66406,7 @@ n=e.j7(o)
 n=n==null?g:n.gdd()
 if(n==null)n=f
 o=e.j7(o)!=null?" \xb7 "+A.da(e.j7(o).d):""
-d.push(A.bt(!1,B.L,!0,g,!0,g,g,g,!0,g,g,g,g,g,g,g,g,!1,g,g,g,g,g,A.h("of "+n+o+". Not counted as income.",g,g,g,g,g,g,g,g),g,p,g,A.bU(B.apV,g,g,new A.axp(h,q),g,g),g))}return A.aJ(d,B.R,B.h,B.i,0,B.r)}d=d.gdd()
+d.push(A.bt(!1,B.L,!0,g,!0,g,g,g,!0,g,g,g,g,g,g,g,g,!1,g,g,g,g,g,A.h("of "+n+o+". Not counted as income.",g,g,g,g,g,g,g,g),g,p,g,A.bU(B.apW,g,g,new A.axp(h,q),g,g),g))}return A.aJ(d,B.R,B.h,B.i,0,B.r)}d=d.gdd()
 s=e.z
 p=A.O(s).i("J<1>")
 m=A.M(new A.J(s,new A.axq(d.toLowerCase()),p),p.i("u.E"))
@@ -67171,7 +67171,7 @@ n.push(A.fJ(k,A.h(m.b,k,k,k,k,k,k,k,k),new A.b3J(l,m),l.ga2q()===m.a,k,k))}p.pus
 if(l.gqt()){o=l.gtF()
 if(l.gtF()){n=B.d.ac(l.gtC().a.a)
 n="Counted as your spending now. You owe "+(n.length===0?"them":n)+": it shows in Friends until you pay."}else n="Ate or bought now, paying later (restaurant, shop khata)"
-p.push(A.Ad(B.L,new A.b3K(l),A.h(n,k,k,k,k,k,k,k,k),B.apP,o))}if(!l.gtF()||!l.gqt()){o=l.gqt()?"Paid from":"Received in"
+p.push(A.Ad(B.L,new A.b3K(l),A.h(n,k,k,k,k,k,k,k,k),B.apQ,o))}if(!l.gtF()||!l.gqt()){o=l.gqt()?"Paid from":"Received in"
 B.b.I(p,A.b([B.d4,A.h(o,k,k,k,k,A.q(a).ok.x,k,k,k),B.a0,new A.Kh(l.a.c,l.gET(),k,new A.b3L(l),k)],q))}p.push(B.d4)
 p.push(A.h("Category",k,k,k,k,A.q(a).ok.x,k,k,k))
 p.push(B.a0)
@@ -67188,7 +67188,7 @@ if(h){i=j.CW
 i=!(i==="borrow"||i==="repay")&&!l.a.c.gn4().m(0,l.gkf())}else i=!1
 if(i)B.b.I(p,A.b([B.al,new A.cI(new A.b3Q(l,j),k,l.a.c,k)],q))
 p.push(B.a0)
-p.push(A.Ad(B.L,new A.b3H(l),B.aqc,B.aqA,l.gNR()))
+p.push(A.Ad(B.L,new A.b3H(l),B.aqd,B.aqA,l.gNR()))
 if(l.gNR()){i=l.gqt()?"Moved to (optional)":"Moved from (optional)"
 B.b.I(p,A.b([A.h(i,k,k,k,k,A.q(a).ok.x,k,k,k),B.a0,new A.Kh(l.a.c,l.gNo(),l.gET(),new A.b3I(l),k)],q))}return A.dq(s,k,A.Vt(k,A.dm(p,k,B.aS,B.N,!1),l.d),k,k)}}
 A.b3f.prototype={
@@ -67558,7 +67558,7 @@ $1(a){return A.baJ(new A.b3Y(this.a),!1,0.7,1,0.25)},
 $S:372}
 A.b3Y.prototype={
 $2(a,b){var s=null,r=this.a,q=t.p
-return A.dm(A.b([A.h(r.c,s,s,s,s,A.q(a).ok.w,s,s,s),B.b_,A.h(r.b,s,s,s,s,A.q(a).ok.Q,s,s,s),B.al,A.bbV(r.d,s),B.d4,A.aR(A.b([A.aZ(A.bbz(B.aqe,new A.b3W(a)),1),B.cy,A.aZ(A.cE(B.apg,new A.b3X(a),s),1)],q),B.m,B.h,B.i,0,s)],q),b,B.W6,B.N,!1)},
+return A.dm(A.b([A.h(r.c,s,s,s,s,A.q(a).ok.w,s,s,s),B.b_,A.h(r.b,s,s,s,s,A.q(a).ok.Q,s,s,s),B.al,A.bbV(r.d,s),B.d4,A.aR(A.b([A.aZ(A.bbz(B.aqf,new A.b3W(a)),1),B.cy,A.aZ(A.cE(B.apg,new A.b3X(a),s),1)],q),B.m,B.h,B.i,0,s)],q),b,B.W6,B.N,!1)},
 $S:289}
 A.b3W.prototype={
 $0(){A.af(this.a,!1).aK("dismiss")
@@ -140597,8 +140597,8 @@ B.eO=new A.mf(0,"emi")
 B.aoT=new A.Y("EMI loan",null,null,null,null,null,null,null,null,null,null)
 B.R5=new A.cS(B.eO,null,B.aoT,t.Rv)
 B.fD=new A.mf(1,"creditLine")
-B.aq1=new A.Y("Credit line",null,null,null,null,null,null,null,null,null,null)
-B.R2=new A.cS(B.fD,null,B.aq1,t.Rv)
+B.aq2=new A.Y("Credit line",null,null,null,null,null,null,null,null,null,null)
+B.R2=new A.cS(B.fD,null,B.aq2,t.Rv)
 B.a31=s([B.R5,B.R2],A.au("D<cS<mf>>"))
 B.a32=s(["i. e.","i. sz."],t.s)
 B.zq=s(["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"],t.s)
@@ -140894,8 +140894,8 @@ B.R3=new A.cS(B.awv,B.Zj,B.tr,t.px)
 B.ob=new A.mX(2,"net")
 B.XN=new A.ao(58919,"MaterialIcons",!1)
 B.Yq=new A.aT(B.XN,18,null,null,null)
-B.apN=new A.Y("Net",null,null,null,null,null,null,null,null,null,null)
-B.R7=new A.cS(B.ob,B.Yq,B.apN,t.px)
+B.apO=new A.Y("Net",null,null,null,null,null,null,null,null,null,null)
+B.R7=new A.cS(B.ob,B.Yq,B.apO,t.px)
 B.a54=s([B.Rg,B.R3,B.R7],A.au("D<cS<mX>>"))
 B.a55=s(["Kuartal ke-1","Kuartal ke-2","Kuartal ke-3","Kuartal ke-4"],t.s)
 B.a56=s([B.cW,B.cE,B.fp,B.dD],A.au("D<m_>"))
@@ -140993,8 +140993,8 @@ B.a5P=s(["\u0d15\u0d4d\u0d30\u0d3f\u0d38\u0d4d\u200c\u0d24\u0d41\u0d35\u0d3f\u0d
 B.Bf=s(["\u0d1c","\u0d2b\u0d46","\u0d2e\u0d3e","\u0d0f","\u0d2e\u0d46","\u0d1c\u0d42\u0d7a","\u0d1c\u0d42","\u0d13","\u0d38\u0d46","\u0d12","\u0d28","\u0d21\u0d3f"],t.s)
 B.aqD=new A.Y("Equally",null,null,null,null,null,null,null,null,null,null)
 B.R9=new A.cS(!1,null,B.aqD,t.Mt)
-B.apY=new A.Y("Exact",null,null,null,null,null,null,null,null,null,null)
-B.Rj=new A.cS(!0,null,B.apY,t.Mt)
+B.apZ=new A.Y("Exact",null,null,null,null,null,null,null,null,null,null)
+B.Rj=new A.cS(!0,null,B.apZ,t.Mt)
 B.a5Q=s([B.R9,B.Rj],t.st)
 B.a5R=s(["enne Kristust","p\xe4rast Kristust"],t.s)
 B.Bg=s(["\u099c\u09be\u09a8\u09c1","\u09ab\u09c7\u09ac\u09cd\u09f0\u09c1","\u09ae\u09be\u09f0\u09cd\u099a","\u098f\u09aa\u09cd\u09f0\u09bf\u09b2","\u09ae\u09c7\u2019","\u099c\u09c1\u09a8","\u099c\u09c1\u09b2\u09be\u0987","\u0986\u0997","\u099b\u09c7\u09aa\u09cd\u09a4\u09c7","\u0985\u0995\u09cd\u099f\u09cb","\u09a8\u09f1\u09c7","\u09a1\u09bf\u099a\u09c7"],t.s)
@@ -141026,8 +141026,8 @@ B.Bo=s(["ned\u011ble","pond\u011bl\xed","\xfater\xfd","st\u0159eda","\u010dtvrte
 B.a64=s(["H:mm:ss (zzzz)","H:mm:ss (z)","HH:mm:ss","HH:mm"],t.s)
 B.P4=new A.Y("Friend",null,null,null,null,null,null,null,null,null,null)
 B.afD=new A.fR("friend",B.P4,null,t.wI)
-B.aq9=new A.Y("Family (money from them is income)",null,null,null,null,null,null,null,null,null,null)
-B.Mp=new A.fR("family",B.aq9,null,t.wI)
+B.aqa=new A.Y("Family (money from them is income)",null,null,null,null,null,null,null,null,null,null)
+B.Mp=new A.fR("family",B.aqa,null,t.wI)
 B.ap7=new A.Y("Me (my own account)",null,null,null,null,null,null,null,null,null,null)
 B.afI=new A.fR("me",B.ap7,null,t.wI)
 B.ap1=new A.Y("Shop / service",null,null,null,null,null,null,null,null,null,null)
@@ -141114,8 +141114,8 @@ B.a6Q=s(["fm","em"],t.s)
 B.BI=s(["\u0458\u0430\u043d\u0443\u0430\u0440","\u0444\u0435\u0431\u0440\u0443\u0430\u0440","\u043c\u0430\u0440\u0442","\u0430\u043f\u0440\u0438\u043b","\u043c\u0430\u0458","\u0458\u0443\u043d","\u0458\u0443\u043b","\u0430\u0432\u0433\u0443\u0441\u0442","\u0441\u0435\u043f\u0442\u0435\u043c\u0431\u0430\u0440","\u043e\u043a\u0442\u043e\u0431\u0430\u0440","\u043d\u043e\u0432\u0435\u043c\u0431\u0430\u0440","\u0434\u0435\u0446\u0435\u043c\u0431\u0430\u0440"],t.s)
 B.a6R=s(["\u0642.\u0638.","\u0628.\u0638."],t.s)
 B.a6S=s(["h:mm:ss\u202fa, zzzz","h:mm:ss\u202fa, z","h:mm:ss\u202fa","h:mm\u202fa"],t.s)
-B.apW=new A.Y("Equal",null,null,null,null,null,null,null,null,null,null)
-B.Rk=new A.cS(!0,null,B.apW,t.Mt)
+B.apX=new A.Y("Equal",null,null,null,null,null,null,null,null,null,null)
+B.Rk=new A.cS(!0,null,B.apX,t.Mt)
 B.apl=new A.Y("Amounts",null,null,null,null,null,null,null,null,null,null)
 B.Rf=new A.cS(!1,null,B.apl,t.Mt)
 B.a6T=s([B.Rk,B.Rf],t.st)
@@ -142722,13 +142722,13 @@ B.VE=new A.a4(0,24,0,24)
 B.arr=new A.Y("No spending in this period.",null,null,null,null,null,null,null,null,null,null)
 B.T0=new A.fa(B.V,null,null,B.arr,null)
 B.aez=new A.V(B.VE,B.T0,null)
-B.apR=new A.Y("No schedule yet. Paste it from a screenshot, or add each due by hand.",null,null,B.bB,null,null,null,null,null,null,null)
-B.aeA=new A.V(B.cX,B.apR,null)
+B.apS=new A.Y("No schedule yet. Paste it from a screenshot, or add each due by hand.",null,null,B.bB,null,null,null,null,null,null,null)
+B.aeA=new A.V(B.cX,B.apS,null)
 B.aqx=new A.Y("Nothing in this range.",null,null,null,null,null,null,null,null,null,null)
 B.SV=new A.fa(B.V,null,null,B.aqx,null)
 B.aeB=new A.V(B.hx,B.SV,null)
-B.aqa=new A.Y("Paid from",null,null,null,null,null,null,null,null,null,null)
-B.aeC=new A.V(B.pI,B.aqa,null)
+B.aqb=new A.Y("Paid from",null,null,null,null,null,null,null,null,null,null)
+B.aeC=new A.V(B.pI,B.aqb,null)
 B.aqJ=new A.Y("Way of paying",null,null,null,null,null,null,null,null,null,null)
 B.aeD=new A.V(B.pI,B.aqJ,null)
 B.aoX=new A.Y("Friend: payments stay spending/income (things they bought for you); only what you mark as lent / borrowed / settle goes to your balance with them. Family: money from them is income. Me: your own account, not counted. Shop: a business on a personal UPI ID.",null,null,null,null,null,null,null,null,null,null)
@@ -142737,15 +142737,15 @@ B.aqC=new A.Y("No changes recorded yet.",null,null,null,null,null,null,null,null
 B.SU=new A.fa(B.V,null,null,B.aqC,null)
 B.aeF=new A.V(B.hx,B.SU,null)
 B.aeG=new A.V(B.cX,B.uX,null)
-B.aq8=new A.Y("No friends yet.\n\nMark people you pay or get money from as friends, add a shared expense, or split a payment from its details. Money between friends is kept here, not in your spending.",null,null,B.bB,null,null,null,null,null,null,null)
-B.aeH=new A.V(B.cX,B.aq8,null)
+B.aq9=new A.Y("No friends yet.\n\nMark people you pay or get money from as friends, add a shared expense, or split a payment from its details. Money between friends is kept here, not in your spending.",null,null,B.bB,null,null,null,null,null,null,null)
+B.aeH=new A.V(B.cX,B.aq9,null)
 B.VD=new A.a4(0,16,0,16)
 B.aqP=new A.Y("Nothing yet. Payments and borrowing appear here from emails, or when you add them.",null,null,null,null,null,null,null,null,null,null)
 B.aeI=new A.V(B.VD,B.aqP,null)
 B.aqz=new A.Y("Loans from banks or loan apps: see what you owe, EMIs left and the next due date. Loans from apps that send emails (such as Slice) appear here by themselves.",null,null,null,null,null,null,null,null,null,null)
 B.aeJ=new A.V(B.hw,B.aqz,null)
-B.aqb=new A.Y("Nothing added yet.",null,null,null,null,null,null,null,null,null,null)
-B.T_=new A.fa(B.V,null,null,B.aqb,null)
+B.aqc=new A.Y("Nothing added yet.",null,null,null,null,null,null,null,null,null,null)
+B.T_=new A.fa(B.V,null,null,B.aqc,null)
 B.aeK=new A.V(B.cX,B.T_,null)
 B.IQ=new A.z7(null)
 B.jD=new A.mp(null,null)
@@ -143220,14 +143220,14 @@ B.ajH=new A.li(3,"hide")
 B.axO=new A.li(4,"remove")
 B.ajI=new A.li(5,"timeout")
 B.ajJ=new A.A2(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.apQ=new A.Y("Script copied. Paste it into script.google.com",null,null,null,null,null,null,null,null,null,null)
-B.ajK=new A.kr(B.apQ,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
+B.apR=new A.Y("Script copied. Paste it into script.google.com",null,null,null,null,null,null,null,null,null,null)
+B.ajK=new A.kr(B.apR,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
 B.aqH=new A.Y("Password changed",null,null,null,null,null,null,null,null,null,null)
 B.ajL=new A.kr(B.aqH,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
-B.aq_=new A.Y("No dates with amounts found in that text.",null,null,null,null,null,null,null,null,null,null)
-B.ajM=new A.kr(B.aq_,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
-B.aqd=new A.Y("New key made. Copy the script again.",null,null,null,null,null,null,null,null,null,null)
-B.ajN=new A.kr(B.aqd,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
+B.aq0=new A.Y("No dates with amounts found in that text.",null,null,null,null,null,null,null,null,null,null)
+B.ajM=new A.kr(B.aq0,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
+B.aqe=new A.Y("New key made. Copy the script again.",null,null,null,null,null,null,null,null,null,null)
+B.ajN=new A.kr(B.aqe,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
 B.aqh=new A.Y("Password must be at least 8 characters",null,null,null,null,null,null,null,null,null,null)
 B.ajO=new A.kr(B.aqh,null,null,null,null,null,null,null,null,null,null,null,null,B.b0,!1,null,null,null,B.u,null)
 B.apD=new A.Y("Still loading your account, try again in a moment",null,null,null,null,null,null,null,null,null,null)
@@ -143664,24 +143664,24 @@ B.apK=new A.Y("Separate",null,null,null,null,null,null,null,null,null,null)
 B.apL=new A.Y("No group",null,null,null,null,null,null,null,null,null,null)
 B.apM=new A.Y("Reports",null,null,null,null,null,null,null,null,null,null)
 B.OZ=new A.Y("Add a friend's part",null,null,null,null,null,null,null,null,null,null)
-B.apO=new A.Y("Skip this payee for now",null,null,null,null,null,null,null,null,null,null)
-B.apP=new A.Y("On credit (udhaar), pay later",null,null,null,null,null,null,null,null,null,null)
-B.apS=new A.Y("Ask to remove this entry?",null,null,null,null,null,null,null,null,null,null)
-B.apT=new A.Y("Search / add detail",null,null,null,null,null,null,null,null,null,null)
-B.apU=new A.Y("Details",null,null,null,null,null,null,null,null,null,null)
-B.apV=new A.Y("Unlink",null,null,null,null,null,null,null,null,null,null)
-B.apX=new A.Y("Paid me back in cash",null,null,null,null,null,null,null,null,null,null)
-B.apZ=new A.Y("Add a loan",null,null,null,null,null,null,null,null,null,null)
-B.aq0=new A.Y("Make new key",null,null,null,null,null,null,null,null,null,null)
-B.aq2=new A.Y("Friends ledger: lent, borrowed, settle-ups",null,null,null,null,null,null,null,null,null,null)
-B.aq3=new A.Y("Set amount owed",null,null,null,null,null,null,null,null,null,null)
-B.aq4=new A.Y("Settle up",null,null,null,null,null,null,null,null,null,null)
-B.aq5=new A.Y("Start fresh",null,null,null,null,null,null,null,null,null,null)
-B.aq6=new A.Y("Start fresh from today",null,null,null,null,null,null,null,null,null,null)
-B.aq7=new A.Y("Shown in the Loans tab, not counted as spending or income",null,null,null,null,null,null,null,null,null,null)
-B.aqc=new A.Y("ATM cash, card bill payments, savings. Not counted as spending or income",null,null,null,null,null,null,null,null,null,null)
-B.aqe=new A.Y("Not a payment",null,null,null,null,null,null,null,null,null,null)
-B.aqf=new A.Y("In NetBanking, download your account statement as XLS (Excel) or Delimited (CSV), not PDF. Choose any dates, e.g. from 1 April. Payments the app already has from bank emails are not added twice.",null,null,null,null,null,null,null,null,null,null)
+B.apN=new A.Y("In NetBanking, download your account statement as XLS (Excel) or Delimited (CSV). Federal Bank: the PDF works too (remove its password first). Choose any dates, e.g. from 1 April. Payments the app already has from bank emails are not added twice.",null,null,null,null,null,null,null,null,null,null)
+B.apP=new A.Y("Skip this payee for now",null,null,null,null,null,null,null,null,null,null)
+B.apQ=new A.Y("On credit (udhaar), pay later",null,null,null,null,null,null,null,null,null,null)
+B.apT=new A.Y("Ask to remove this entry?",null,null,null,null,null,null,null,null,null,null)
+B.apU=new A.Y("Search / add detail",null,null,null,null,null,null,null,null,null,null)
+B.apV=new A.Y("Details",null,null,null,null,null,null,null,null,null,null)
+B.apW=new A.Y("Unlink",null,null,null,null,null,null,null,null,null,null)
+B.apY=new A.Y("Paid me back in cash",null,null,null,null,null,null,null,null,null,null)
+B.aq_=new A.Y("Add a loan",null,null,null,null,null,null,null,null,null,null)
+B.aq1=new A.Y("Make new key",null,null,null,null,null,null,null,null,null,null)
+B.aq3=new A.Y("Friends ledger: lent, borrowed, settle-ups",null,null,null,null,null,null,null,null,null,null)
+B.aq4=new A.Y("Set amount owed",null,null,null,null,null,null,null,null,null,null)
+B.aq5=new A.Y("Settle up",null,null,null,null,null,null,null,null,null,null)
+B.aq6=new A.Y("Start fresh",null,null,null,null,null,null,null,null,null,null)
+B.aq7=new A.Y("Start fresh from today",null,null,null,null,null,null,null,null,null,null)
+B.aq8=new A.Y("Shown in the Loans tab, not counted as spending or income",null,null,null,null,null,null,null,null,null,null)
+B.aqd=new A.Y("ATM cash, card bill payments, savings. Not counted as spending or income",null,null,null,null,null,null,null,null,null,null)
+B.aqf=new A.Y("Not a payment",null,null,null,null,null,null,null,null,null,null)
 B.aqg=new A.Y("Nothing to remove: every entry in the app is in the statement.",null,null,null,null,null,null,null,null,null,null)
 B.aqi=new A.Y("Set a new password",null,null,null,null,null,null,null,null,null,null)
 B.aqk=new A.Y("Connect",null,null,null,null,null,null,null,null,null,null)
