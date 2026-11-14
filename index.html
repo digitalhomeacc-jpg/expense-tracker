@@ -62,7 +62,7 @@
       if (window.caches) caches.keys().then(function (ks) { ks.forEach(function (k) { caches.delete(k); }); });
     }
     // A newer version published? Load it (iPhone home-screen apps otherwise keep running the old one).
-    var BUILD = '202611141327';
+    var BUILD = '202611141822';
     function checkVersion() {
       if (BUILD.indexOf('__') === 0) return;
       fetch('version.txt?t=' + Date.now(), { cache: 'no-store' })
@@ -114,6 +114,6 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
-  <script src="flutter_bootstrap.js?v=202611141327" async></script>
+  <script src="flutter_bootstrap.js?v=202611141822" async></script>
 </body>
 </html>
