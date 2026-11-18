@@ -72063,8 +72063,8 @@ k=o==null?p.gY(s):o}else k=a5
 j=a4.a.c.gtn()
 o=A.ap(t.N)
 for(i=p.gW(s);i.p();){h=i.gL().db
-if(h!=null)o.A(0,h)}g=a4.w.h(0,a8)
-if(g==null)g=!n||m==="shop"
+if(h!=null)o.A(0,h)}i=a4.w.h(0,a8)
+g=i!==!1
 f=new A.b5F(a4,j,n,b0)
 i=a9.length
 h=a4.r
@@ -72111,10 +72111,9 @@ B.b.I(a1,a8)}else{a8=n?"All "+p.gH(s)+" payments were\u2026":"Everything at "+a8
 a8=A.f(a8,a5,a5,a5,a5,a6.x,a5,a5,a5)
 s=f.$1(new A.b5W(a4,q,g))
 p=A.f(o.a!==0?"Also for new payments to "+new A.fz(o,new A.b5N(),o.$ti.i("fz<1,e>")).aS(0,", "):"Also for new payments here",a5,a5,a5,a5,a5,a5,a5,a5)
-o=n&&m!=="shop"?"Turn on for a shop on a personal UPI ID (e.g. your cigarette shop)":"New payments get the same category by themselves"
-if(e==null)e=a5
-else{d=a7.rx
-e=e.aJ(d==null?a7.k3:d)}B.b.I(a1,A.a([a8,B.Y,s,B.aD,A.tj(B.G,new A.b5O(a4,q),A.f(o,a5,a5,a5,a5,e,a5,a5,a5),p,g)],i))}return A.cu(h,a5,A.cx(a1,a5,B.aC,B.F,!1),a5,a5)}}
+if(e==null)o=a5
+else{o=a7.rx
+o=e.aJ(o==null?a7.k3:o)}B.b.I(a1,A.a([a8,B.Y,s,B.aD,A.tj(B.G,new A.b5O(a4,q),A.f("New payments here get the same category by themselves. Turn off for a friend you pay for different things.",a5,a5,a5,a5,o,a5,a5,a5),p,g)],i))}return A.cu(h,a5,A.cx(a1,a5,B.aC,B.F,!1),a5,a5)}}
 A.b5z.prototype={
 $0(){var s=this.a
 return s.r=s.r+J.c4(this.b)},
@@ -73040,7 +73039,7 @@ n=A.q(a).ax
 m=n.ry
 if(m==null){m=n.t
 n=m==null?n.k3:m}else n=m
-return A.cu(h,k,A.cx(A.a([g,B.cS,new A.E3("Bank emails",k),e,s,B.cS,new A.E3("Organise",k),f,r,B.cS,new A.E3("Account",k),q,p,o,j,new A.S(B.aC,A.f("Version 17 Nov 21:11",k,k,k,k,A.cj(k,k,n,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.bp,k,k),k)],t.p),k,k,B.F,!1),k,k)}}
+return A.cu(h,k,A.cx(A.a([g,B.cS,new A.E3("Bank emails",k),e,s,B.cS,new A.E3("Organise",k),f,r,B.cS,new A.E3("Account",k),q,p,o,j,new A.S(B.aC,A.f("Version 18 Nov 17:03",k,k,k,k,A.cj(k,k,n,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.bp,k,k),k)],t.p),k,k,B.F,!1),k,k)}}
 A.aLJ.prototype={
 $1(a){return this.a},
 $S:24}
